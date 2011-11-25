@@ -31,10 +31,11 @@ THE SOFTWARE.
     <version>1.409</version>
   </parent>
 
-  <name>Jenkins Build Node Column Plugin</name>
+  <name>Build Node Column Plugin</name>
   <artifactId>build-node-column</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
+  <url>http://wiki.jenkins-ci.org/display/JENKINS/Build+Node+Column+Plugin</url>
 
   <repositories>
     <repository>
@@ -56,4 +57,11 @@ THE SOFTWARE.
       <url>http://maven.glassfish.org/content/groups/public/</url>
     </pluginRepository>
   </pluginRepositories>
+
+  <scm>
+    <connection>scm:git:ssh://github.com/jenkinsci/build-node-column-plugin.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/jenkinsci/build-node-column-plugin.git</developerConnection>
+    <url>https://github.com/jenkinsci/build-node-column-plugin</url>
+  </scm>
 </project>
+
